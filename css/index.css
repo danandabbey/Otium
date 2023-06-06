@@ -1,0 +1,21 @@
+canvas{
+    justify-self: center;
+    align-self: center;
+}
+body{
+    color: #fff;
+    background-color: #000;
+}
+
+button{
+    color: #fff;
+    background-color: #000;
+}
+
+/*-------------Desktop-----------------*/ 
+
+@media screen and (min-width: 900px) {
+
+
+
+}

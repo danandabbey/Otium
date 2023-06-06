@@ -1,0 +1,131 @@
+/*--------------All--------------*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+}
+
+/*nav*/
+
+nav{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#menuHidden{
+    display: none;
+    flex-direction: column;
+}
+
+#menu{
+    display: inline;
+}
+
+button{
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+button:hover{
+    color: #808080;
+}
+
+
+/*---------------Mobile----------------*/
+
+
+
+
+/*--------------Tablet-----------------*/
+
+@media screen and (min-width: 750px) {
+
+
+}
+
+/*-------------Desktop-----------------*/ 
+
+@media screen and (min-width: 900px) {
+
+header{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    flex-direction: row;
+    height: 10vh;
+}
+
+h1{
+    padding-left: 2em;
+}
+
+#left{
+    width: 20%;
+    height: 100%;
+}
+main{
+    align-self: center;
+    width: 60%;
+}
+
+#center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+footer{
+    height: 5vh;
+    padding-left: 2em;
+}
+
+
+/*nav*/
+
+nav{
+    gap: 1em;
+    padding-bottom: 5em;
+    justify-self: center;
+}
+
+#menuHidden{
+    flex-direction: column;
+    gap: .5em;
+}
+
+#menu{
+    width: 100%;
+    font-size: 1.5em;
+    align-self: flex-end;
+    text-align: center;
+}
+
+button{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+
+};

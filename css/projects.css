@@ -1,0 +1,35 @@
+body{
+    color: #FFC98A;
+    background-color: #005454;
+}
+
+button{
+    color: #FFC98A;
+    background-color: #005454;
+}
+
+/*-------------Desktop-----------------*/ 
+
+@media screen and (min-width: 900px) {
+
+#projectsContainer{
+    display: grid;
+    gap: .5em;
+    margin-bottom: 7em;
+    grid-template-areas:
+                        "a b"
+                        "c d";
+}
+
+.project{
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border: solid #FFC98A 1px;
+}
+
+#projectsContainer button{
+    font-size: 1.2em;
+}
+
+}
