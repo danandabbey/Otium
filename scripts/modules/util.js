@@ -23,7 +23,6 @@ function listen(){
             const url = e.currentTarget
             window.location.href = `${url.id}.html`;
         }));
-
     })
 };
 

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <link rel="stylesheet" href="./css/weather.css" type="text/css">
+    <title id="headTitle">Weather | Otium</title>
+</head>
+
+<body id="body">
+    <header>
+        <h1>Weather</h1>
+    </header>
+    <div id="center">
+        <div id="left"></div>
+        <main>
+            <div id="weatherApp">
+                <div id="currentWeather">
+                    
+                </div>
+                <div id="weatherForecast">
+                <div class="forecast" id="hourlyWeather">
+                    <div class="individualForecast" id="hourly1">
+                            <p id="hourly1Time"></p>
+                            <p id="hourly1Temp"></p>
+                            <p id="hourly1Precipitation"></p>
+                    </div>
+                    <div class="individualForecast" id="hourly2">
+                            <p id="hourly2Time"></p>
+                            <p id="hourly2Temp"></p>
+                            <p id="hourly2Precipitation"></p>
+                    </div>
+                    <div class="individualForecast" id="hourly3">
+                            <p id="hourly3Time"></p>
+                            <p id="hourly3Temp"></p>
+                            <p id="hourly3Precipitation"></p>
+                    </div>
+                    <div class="individualForecast" id="hourly4">
+                            <p id="hourly4Time"></p>
+                            <p id="hourly4Temp"></p>
+                            <p id="hourly4Precipitation"></p>
+                    </div>
+                    <div class="individualForecast" id="hourly5">
+                            <p id="hourly5Time"></p>
+                            <p id="hourly5Temp"></p>
+                            <p id="hourly5Precipitation"></p>
+                    </div>
+                </div>
+                <div class="forecast" id="dailyWeather">
+                    <div class="individualForecast" id="daily1">
+                        <p id="daily1day"></p>
+                        <p id="dily1Temp"></p>
+                        <p id="daily1Precipitation"></p>
+                    </div>
+                    <div class="individualForecast" id="daily2">
+                        <p id="daily2day"></p>
+                        <p id="daily2Temp"></p>
+                        <p id="daily2Precipitation"></p>
+                    </div>
+                    <div class="individualForecast" id="daily3">
+                        <p id="daily3day"></p>
+                        <p id="daily3Temp"></p>
+                        <p id="daily3Precipitation"></p>
+                    </div>
+                    <div class="individualForecast" id="daily4">
+                        <p id="daily4day"></p>
+                        <p id="daily4Temp"></p>
+                        <p id="daily4Precipitation"></p>
+                    </div>
+                    <div class="individualForecast" id="daily5">
+                        <p id="daily5day"></p>
+                        <p id="daily5Temp"></p>
+                        <p id="daily5Precipitation"></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </main>
+        <div id="right">
+            <nav>
+                <div id="menu">Menu</div>
+                <div id="menuHidden">
+                    <button class="navButton" id="index">Home</button>
+                    <button class="navButton" id='about'>About</button>
+                    <button class="navButton" id='projects'>Projects</button>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <footer>Daniel Frederick © 2023</footer>
+</body>
+<script src="./scripts/scripts.js" type="module"></script>
+<script src="./scripts/weatherForcast.js" type="module"></script>
+
+</html>

@@ -1,0 +1,41 @@
+#weatherApp{
+    border: solid #000 .1em;
+    display: grid;
+    grid-area:  aaaaa
+                aaaaa
+                bbbbb
+                ccccc;
+}
+
+#currentWeather{
+    width: 50em;
+    height: 20em;
+    border-bottom: solid #000 .1em;
+}
+
+#hourlyWeather{
+    border-bottom: solid #000 .1em;
+}
+
+#hourly1,#hourly2,#hourly3,#hourly4{
+    border-right: solid #000 .1em;
+}
+
+#daily1,#daily2,#daily3,#daily4{
+    border-right: solid #000 .1em;
+}
+
+#weatherForecast{
+    display: flex;  
+    flex-direction: column;
+}
+
+.forecast{
+    display: flex;
+    flex-direction: row;
+}
+
+.individualForecast{
+    width: 10em;
+    height: 10em;
+}
