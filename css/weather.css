@@ -1,19 +1,16 @@
 #weatherApp{
     border: solid #000 .1em;
-    display: grid;
-    grid-area:  aaaaa
-                aaaaa
-                bbbbb
-                ccccc;
+    display: flex;
+    flex-direction: column;
+    width: 50em;
+    height: 40em;
 }
 
-#currentWeather{
-    width: 50em;
-    height: 20em;
+#current{
     border-bottom: solid #000 .1em;
 }
 
-#hourlyWeather{
+#hourly{
     border-bottom: solid #000 .1em;
 }
 
@@ -25,17 +22,7 @@
     border-right: solid #000 .1em;
 }
 
-#weatherForecast{
-    display: flex;  
-    flex-direction: column;
-}
-
-.forecast{
+#hourly, #daily{
     display: flex;
     flex-direction: row;
-}
-
-.individualForecast{
-    width: 10em;
-    height: 10em;
 }

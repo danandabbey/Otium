@@ -25,5 +25,4 @@ function call(lat, lon) {
 
 };
 
-
 export { success, options, error };
